@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @RylanYancey
-- 👀 I’m interested in coding
-- 🌱 I’m currently learning coding
-- 💞️ I’m looking to collaborate on coding
-- 📫 How to reach me coding
+- 👀 I love the Rust Programming Language
+- 🌱 I’m currently enrolled at UT Chattanooga for a degree in Computer Science
+- 💞️ I’m looking to learn from others
+- 📫 Reach me through discord @ Rylan#2507
