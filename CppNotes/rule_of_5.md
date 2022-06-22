@@ -54,7 +54,7 @@ swap(T& a, T& b) {
 }
 ```
 
-In the Rule of 5, we are trying to create Move Semantics for an object. 
+In the Rule of 5, we are trying to create Move Semantics for an object that will allow us to use std::move(object);
 
 ## Move Constructor
 
