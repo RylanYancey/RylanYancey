@@ -75,6 +75,7 @@ public:
      int * nums = malloc (8 * sizeof(int));
 }
 
+// 'this' is the object we are moving into. 'other' is the object we are moving from. 
 BinaryTree::BinaryTree (BinaryTree && other) {
      this -> nums = std::move(other.nums);
 }
@@ -100,6 +101,7 @@ public:
      int * nums = malloc (8 * sizeof(int));
 }
 
+// 'This' is the object we are moving into. 'other' is the object we are moving from. 
 BinaryTree::BinaryTree & operator= (BinaryTree && other) {
      this -> nums = std::move(other.nums);
      return *this;
