@@ -3,6 +3,8 @@
 
 If a class requires a user-defined destructor, a user-defined copy constructor, or a user-defined copy assignment operator, it almost certainly requires all three. 
 
+Generally, if a class contains pointers, it needs the Rule of 3. 
+
 ## User-defined Destructor
 
 A destructor is denoted using ~, and is used to explicitly de-allocate memory. In this example, we are declaring an array of nums with `malloc` that has to be freed at the end of BinaryTree's lifetime. If we did not free nums, we would have memory which is no longer needed nor addressable, but not released, since the pointer to nums is deallocated but not the data itself. 
