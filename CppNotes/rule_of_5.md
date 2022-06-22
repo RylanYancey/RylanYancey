@@ -2,6 +2,8 @@
 
 "Because the presence of a user-defined, copy-constructor, or copy-assignment operator prevents implicit definition of the move constructor and the move assignment operator, any class for which move semantics are desirable, all 5 special memeber functions have to be declared.
 
+Just like the Rule of 3, if a class contains pointers and you want to use std::move() on it, you need to Rule of 5. 
+
 ## Copy vs Reference vs Move
 
 Copying - use of the Copy Assignment Operator or Copy Constructor copy an object, creating a second object identical to the first.
