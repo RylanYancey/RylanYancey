@@ -61,6 +61,12 @@ In the Rule of 5, we are trying to create Move Semantics for an object.
 Within a move constructor, you can explicitly move all members to the new object using std::move.
 
 ```cpp
+int main() {
+     BinaryTree btree();
+     some_function(std::move(btree)); // Move Constructor called. 
+}
+```
+```cpp
 // Figure 5
 BinaryTree {
 public:
@@ -76,10 +82,17 @@ BinaryTree::BinaryTree (BinaryTree && other) {
 
 ## Move Assignment Operator
 
-The Move Assignment Operator is the same as the Move Constructor, but for the operator.
+The Move Assignment Operator is the same as the Move Constructor, but for the operator. 
 
 ```cpp
-// FIgure 6
+int main() {
+     BinaryTree btree();
+     BinaryTree btree2 = std::move(btree); // Move Assignment Operator called.
+}
+```
+
+```cpp
+// Figure 6
 BinaryTree {
 public:
      BinaryTree & operator= (BinaryTree&& other);
