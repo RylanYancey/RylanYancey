@@ -10,6 +10,7 @@ A destructor is denoted using ~, and is used to explicitly de-allocate memory. I
 The destructor is called at the end of an objects' _lifetime_.
 
 ```cpp
+// Figure 1
 class BinaryTree {
 public:
      ~BinaryTree ();
@@ -31,6 +32,7 @@ int main() {
 The Copy Constructor is for _implicit_ copies, for example copying data into or out of a function. It is important to note that `other` is the object we are copying into, and `this` is the object we are copying from. 
 
 ```cpp
+// Figure 2
 class BinaryTree {
 public:
     BinaryTree (const BinaryTree & other);
@@ -54,6 +56,7 @@ int main() {
 The Copy Assignment Operator is for _explicit_ copies. An explicit copy occurs whenever the `=` sign is used. 
 
 ```cpp
+// Figure 3
 BinaryTree {
 public:
     BinaryTree & operator= (const BinaryTree & other);
@@ -62,7 +65,8 @@ public:
 };
 
 BinaryTree::BinaryTree & operator= (const BinaryTree & other) {
-    other.nums = this -> nums;
+    this -> nums = other.nums;
+    return *this;
 }
 
 int main() {
@@ -78,6 +82,7 @@ Below is a BinaryTree class. Since BinaryTrees require heap-allocated pointers t
 We also want to declare user-defined Copy Constructor / Assignment Operator, to not only comply with the rule of three, but be in control of the memory. 
 
 ```cpp
+// Figure 4
 struct Node {
     Node * left;
     Node * right;
