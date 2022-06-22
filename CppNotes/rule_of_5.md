@@ -15,7 +15,7 @@ int main() {
 }
 ```
 
-Address - The use of & to pass an object as a reference. 
+Address - The use of & to pass an object as a reference. This way, Btree exists in both `main` and `some_function`, but only as a reference in `some_function`.
 
 ```cpp
 // Figure 2
@@ -69,7 +69,7 @@ public:
 }
 
 BinaryTree::BinaryTree (BinaryTree && other) {
-     other.nums = std::move(this -> nums);
+     this -> nums = std::move(other.nums);
 }
 ```
 
