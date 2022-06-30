@@ -10,3 +10,5 @@ I'm passionate about:
 - HPC (Cuda, MPI)
 - Machine Learning
 - Procedural Generation
+
+Currently working under Dr. Tony Skjellum at UTC doing HPC research. 
