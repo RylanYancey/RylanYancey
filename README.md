@@ -1,5 +1,12 @@
-- 👋 Hi, I’m @RylanYancey
-- 👀 I love the Rust Programming Language
-- 🌱 I’m currently enrolled at UT Chattanooga for a degree in Computer Science
-- 💞️ I’m looking to learn from others
-- 📫 Reach me through discord @ Rylan#2507
+
+Computer Science / Software Systems Major
+
+Undergraduate at University of Tennessee at Chattanooga
+
+My Favorite languages are C++ / Rust
+
+I'm passionate about:
+
+- HPC (Cuda, MPI)
+- Machine Learning
+- Procedural Generation
