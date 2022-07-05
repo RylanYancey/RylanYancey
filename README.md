@@ -1,5 +1,6 @@
 
-Computer Science / Software Systems Major
+Computer Science Major with a Software Systems focus
+Entrepreneurship Minor
 
 Undergraduate at University of Tennessee at Chattanooga
 
