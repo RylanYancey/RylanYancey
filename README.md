@@ -1,15 +1,18 @@
 
-Computer Science Major with a Software Systems focus\
-Entrepreneurship Minor
+Computer Science Major at the University of Tennessee at Chattanooga
 
-Undergraduate at University of Tennessee at Chattanooga
+Undergraduate, currently not pursuing Graduate school. 
 
-My Favorite languages are C++ / Rust
+My Favorite language is Rust, but I also use C# and C++. 
 
 I'm passionate about:
 
-- HPC (Cuda, MPI)
+- High Performance Computing
 - Machine Learning
 - Procedural Generation
 
-Currently working under Dr. Tony Skjellum at UTC doing HPC research. 
+Currently working under Dr. Tony Skjellum at UTC performing research in HPC and Machine Learning. 
+
+I'll be interning in Albequerque, New Mexico this summer at Sandia National Lab!
+
+Check out my Soul Machine Learning Framework project under my Organizations. 
