@@ -3,7 +3,7 @@ Computer Science Major at the University of Tennessee at Chattanooga
 
 Undergraduate, currently not pursuing Graduate school. 
 
-My Favorite language is Rust, but I also use C# and C++. 
+My Favorite language is Rust, but I also use C#, C++, and Julia. 
 
 I'm passionate about:
 
