@@ -10,6 +10,7 @@ I'm passionate about:
 - High Performance Computing
 - Machine Learning
 - Procedural Generation
+- Computer Graphics
 
 Currently working under Dr. Tony Skjellum at UTC performing research in HPC and Machine Learning. 
 
